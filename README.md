@@ -17,7 +17,7 @@ NYU Data Visualization class, final project
 A Tableau data visualization that summarizes expected employment growth by occupation
 and metropolitan area, linked with various levels of educational attainment and median salary.
 
-[oweng.net](http://oweng.net/data-visualization/tableau/tableau-employment-growth.aspx) | [Tableau Workbook](tableau/EmploymentProjections.twbx)
+[oweng.net](http://oweng.net/data-visualization/tableau/tableau-employment-growth.aspx) | [Tableau Workbook](tableau/JobGrowthAndMSA.twbx)
 
 [![alt text](tableau/JobGrowth.png "Job Growth And MSA")](http://oweng.net/data-visualization/tableau/tableau-employment-growth.aspx)
 
