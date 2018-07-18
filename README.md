@@ -19,5 +19,5 @@ and metropolitan area, linked with various levels of educational attainment and 
 
 [html](tableau/JobGrowthAndMSA.html) | [oweng.net](http://oweng.net/data-visualization/tableau/tableau-employment-growth.aspx) | [Tableau Workbook](tableau/EmploymentProjections.twbx)
 
-[![alt text](tableau/JobGrowthAndMsa.png "Job Growth And MSA")](http://oweng.net/data-visualization/tableau/tableau-employment-growth.aspx)
+[![alt text](tableau/JobGrowth.png "Job Growth And MSA")](http://oweng.net/data-visualization/tableau/tableau-employment-growth.aspx)
 
