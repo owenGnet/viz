@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Growth Occupation - MSA</title>
+</head>
+
+<body>
+
+    <h2>Introduction to Data Visualization, final project</h2>
+    <article id="employment_growth_description">
+        <p>
+            There are two primary purposes to the Tableau data visualization below, which summarizes data available from the U.S. Bureau of Labor Statistics and was designed with a target audience of
+            junior-high/high-school students in mind. The first is pretty straightforward where by that time many students will know, or think they know, whether or not college is in their
+            future. Instead of being presented with a random list of jobs that are expected to grow in the near future they can click on an "Educational Attainment" level, e.g. High school
+            diploma or equivalent, and see which occupations tied to that education are likely to pay more. The length of each data bar represents expected growth percent but that value is
+            relatively unimportant - the growth % is an estimate and a difference between 20% and 30% probably won't have much practical effect. The color of the bar is tied to (2012) salary levels though,
+            with darker green for occupations earning more. Using color for a quantitative value can be tricky, especially when color varies not only in brightness but also in actual hue as below.
+            However in this case the color is really only intended as a reinforcement to the actual dollar value, which is also noted on the same line and is marked in concordance with the bottom axis.
+        </p>
+        <p>
+            The secondary purpose of the data grid is to encourage pursuit of higher education. Simply by listing the higher-education, higher-wage occupations first a viewer will likely
+            find the salaries listed later in the data grid a bit discouraging. The idea isn't so much as to push a tired-of-school student into anesthesiology as to motivate someone
+            considering the health care field to see that only a few more years of schooling could result in a $70k median salary (dental hygienist) as opposed to $24k (physical therapist aide).
+        </p>
+        <p>
+            The tie-in to the MSA (Metropolitan Statistical Area) map above is intended as more of curiosity, where it can be fun to see how wages differ across regions, and in which
+            cities certain occupations tend to be concentrated. Of course that wage information is in isolation and no relative cost-of-living numbers are provided. Also, the bubble size,
+            which indicates number of people currently in an occupation, doesn't tell much on its own as NYC usually has the biggest numbers, simply because it is working off of a larger
+            population base. A more valuable visualization would consider a given occupation's "Location Quotient", a number also provided in the Bureau of Labor Statistics data.
+            A value > 1 here implies that the percentage of local workers in that region is greater than the national average. A well understood example would tell students that if they
+            really want to be an actor, moving to Los Angeles may be helpful. A less obvious one indicates that, at least among the 11 MSA below, Washington D.C. is the place to be for
+            historians.
+        </p>
+    </article>
+
+
+    <div class='tableauPlaceholder' id='viz1531679249001' style='position: relative'>
+        <noscript>
+            <a href='#'><img alt='JobGrowthAndMSA ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmploymentProjections&#47;JobGrowthAndMSA&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz' width='804' height='1269' style='display: none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableausoftware.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name' value='EmploymentProjections&#47;JobGrowthAndMSA' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Em&#47;EmploymentProjections&#47;JobGrowthAndMSA&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='showVizHome' value='no' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1531679249001');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='800px';vizElement.style.height='1227px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+</body>
+
+</html>
