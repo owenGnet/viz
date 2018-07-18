@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Datacentric Jobs</title>
+
+
+
+</head>
+<body>
+
+    <h2>Where are the Datacentric Jobs?</h2>
+    <article id="datacentric_jobs_locations">
+        <p>
+            The inspiration for this visualization was the report titled "The Importance of Data Occupations in the U.S. Economy", released by the
+            Economics & Statistics Administration agency (United States Department of Commerce) in early 2015.
+            A pdf of that report can be downloaded from <a href="http://www.esa.doc.gov/reports/importance-data-occupations-us-economy.">here</a>.
+            As per the Executive Summary:
+        </p>
+        <blockquote cite="http://www.esa.doc.gov/reports/importance-data-occupations-us-economy.">
+            In this report we identify occupations where data analysis and processing are central to the work performed and measure the
+            size of employment and earnings in these occupations, as well as in the industries that have the highest concentration of these data occupations.
+        </blockquote>
+        <p>One of the Key Findings:</p>
+        <blockquote cite="http://www.esa.doc.gov/reports/importance-data-occupations-us-economy.">
+            Data intensive industries are located in many states, but the highest concentrations are in Washington, D.C.; Virginia;
+            Massachusetts; Maryland; and Connecticut.
+        </blockquote>
+        <p>
+            But the geographical aspects of that analysis struck me as too broad, where one might wonder if San Francisco (and/or San Jose area, and/or XYZ)
+            is perhaps lost in the mass of their enclosing states. Also, any analysis in which Washington D.C. is treated the same as the entire state of
+            New York as opposed to New York City will tend to be a bit misleading. Note that the visualization only considers a metropolitan area to be a
+            candidate for ranking if there are at least 5 data occupations present once the Data Importance filter has been applied.
+        </p>
+        <p>
+            Another factor I wanted to lend more weight to was the datacentricity of various occupations. The ESA report defines “data occupations” by:
+        </p>
+        <blockquote cite="http://www.esa.doc.gov/reports/importance-data-occupations-us-economy.">
+            focusing on jobs where the use of data is “very important” as identified by O*Net, a comprehensive system of job descriptions developed with
+            the support of the U.S. Department of Labor.
+        </blockquote>
+        <p>
+            which presumably winds up giving equal weight to both 'data important' occupations such as Chief Executives and those that are 'all about the data',
+            e.g. Astronomers. The slide bar below, underneath 'DEGREE OF DATACENTRICNESS + LOG(DATACENTRICTUDE)' provides a method for giving greater (or less) emphasis
+            to the data importance value (Avg Data Importance in the table below) assigned to various occupations by the O*Net database.
+            Note that the numbers behind this method are arbitrary to say the least.
+            Something to do with a (per MSA) calculation in the form of SUM(JOBS_1000 * AvgDataImportance) where the former is a number supplied by the U.S. Bureau of Labor Statistics.
+            The original ESA report used BLS data from May 2013 but this viz uses more recent numbers from <a href="http://www.bls.gov/oes/special.requests/oesm14ma.zip">May 2014</a>.
+        </p>
+    </article>
+
+    <div class='tableauPlaceholder' id='viz1531680155435' style='position: relative'>
+        <noscript>
+            <a href='#'><img alt='DatacentricDisplay ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DatacentricJobs&#47;DatacentricDisplay&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz' width='804' height='1269' style='display: none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='site_root' value='' />
+            <param name='name' value='DatacentricJobs&#47;DatacentricDisplay' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DatacentricJobs&#47;DatacentricDisplay&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='showVizHome' value='no' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1531680155435');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='800px';vizElement.style.height='1227px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
